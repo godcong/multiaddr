@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	from := flag.String("from", "/ip4/124.15.231.68/tcp/4001/ipfs/QmeF1HVnBYTzFFLGm4VmAsHM4M7zZS3WUYx62PiKC2sqRq", "from address")
+	from := flag.String("from", "/ip4/192.168.1.13/tcp/14001/ipfs/QmXNZRTd54Zvarf4sswVvUUnpb4gPQNAhFViozVgG8uwri", "from address")
 	shell := flag.String("shell", "/ip4/127.0.0.1/tcp/5001", "ipfs shell address")
 	flag.Parse()
 
